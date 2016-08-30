@@ -51,15 +51,6 @@ header
 {
 	background: #FFFFFF;
 }
-.top-bar
-{
-	background: #bf2037;
-	padding: 0;
-}
-.top-bar ul
-{
-	background: #bf2037;
-}
 #header-spacer
 {
 	height: 2em;
@@ -77,12 +68,12 @@ header
 --------------------------------------------------------------*/
 .top-bar
 {
-	background: #bf2037;
+	background: #3296FF;
 	padding: 0;
 }
 .top-bar ul
 {
-	background: #bf2037;
+	background: #3296FF;
 }
 /*--------------------------------------------------------------
 ## Links
@@ -120,7 +111,7 @@ a:active {
 	width: 100%;
 	margin: auto auto 25px;
 	text-transform: uppercase;
-	background: rgb(50,150,255);
+	background: #3296FF;
 }
 
 .main-navigation ul {
@@ -338,5 +329,5 @@ p.copyright
 {
 	clear: both;
 	width: 100%;
-	background: #bf2037;
+	background: #3296FF;
 }

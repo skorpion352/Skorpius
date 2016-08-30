@@ -15,7 +15,9 @@ if ( ! function_exists( 'skorpius_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
 function skorpius_setup() {
+
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
@@ -102,10 +104,13 @@ add_action( 'widgets_init', 'skorpius_widgets_init' );
  * Enqueue scripts and styles.
  */
 function skorpius_scripts() {
+    // Deregister the jquery version bundled with WordPress.
+    wp_deregister_script( 'jquery' );
+
     // JavaScript Files
     wp_enqueue_script( 'skorpius-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
     wp_enqueue_script( 'skorpius-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-    wp_enqueue_script( 'skorpius-jquery', get_template_directory_uri() . '/js/vendor/jquery.js', array(), '', true );
+    wp_enqueue_script( 'skorpius-jquery', get_template_directory_uri() . '/js/vendor/jquery.js', array(), '', false );
     wp_enqueue_script( 'skorpius-input', get_template_directory_uri() . '/js/vendor/what-input.js', array(), '', true );
     wp_enqueue_script( 'skorpius-foundation', get_template_directory_uri() . '/js/vendor/foundation.js', array(), '', true );
     wp_enqueue_script( 'skorpius-app', get_template_directory_uri() . '/js/app.js', array(), '', true );
