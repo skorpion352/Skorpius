@@ -151,3 +151,23 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Change the class for sticky posts to .wp-sticky to avoid conflicts with Foundation's Sticky plugin
+ *
+ * @package Skorpius
+ * @since Skorpius 0.1
+ */
+
+if ( ! function_exists( 'skorpius' ) ) :
+    function skorpius_sticky_posts( $classes ) {
+        if ( in_array( 'sticky', $classes, true ) ) {
+            $classes = array_diff($classes, array('sticky'));
+            $classes[] = 'wp-sticky';
+        }
+        return $classes;
+    }
+    add_filter('post_class','skorpius_sticky_posts');
+
+endif;
+

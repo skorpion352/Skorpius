@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399837b5-158f-43ca-8af5-c464ace91cee" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.jshintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/codesniffer.ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/elements/_elements.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/elements/_lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/elements/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/forms/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/forms/_fields.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/forms/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/layout/_content-sidebar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/layout/_sidebar-content.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/media/_captions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/media/_galleries.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/media/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/mixins/_mixins-master.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/modules/_accessibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/modules/_alignments.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/modules/_clearings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/modules/_infinite-scroll.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/navigation/_links.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/navigation/_menus.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/navigation/_navigation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/site/_site.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/site/primary/_comments.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/site/secondary/_widgets.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/typography/_copy.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/typography/_headings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/typography/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/variables-site/_colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/variables-site/_structure.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/variables-site/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/variables-site/_variables-site.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
     </list>
     <ignored path="skorpius.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+            <state relative-caret-position="445">
+              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
               <folding>
                 <element signature="e#6#151#0#PHP" expanded="true" />
               </folding>
@@ -47,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -99,22 +135,9 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            <state relative-caret-position="333">
+              <caret line="201" column="13" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="e#571#577#0#HTML" expanded="true" />
-                <element signature="e#773#779#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -140,11 +163,12 @@
         <option value="$PROJECT_DIR$/inc/theme-support.php" />
         <option value="$PROJECT_DIR$/inc/responsive-images.php" />
         <option value="$PROJECT_DIR$/page.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/page-orbit_slider.php" />
         <option value="$PROJECT_DIR$/template-parts/content-page-orbit.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/css/foundation.css" />
+        <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
   </component>
@@ -214,7 +238,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template-parts" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472461585052</updated>
-      <workItem from="1472461587335" duration="11984000" />
+      <workItem from="1472461587335" duration="15926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11984000" />
+    <option name="totallyTimeSpent" value="15926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -481,16 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
-          <folding>
-            <element signature="e#6#151#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -533,19 +547,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.jscsrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.jshintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codesniffer.ruleset.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="3034" column="13" selection-start-line="3034" selection-start-column="13" selection-end-line="3034" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="201" column="13" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#151#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

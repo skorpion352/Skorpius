@@ -19,7 +19,7 @@
       <paths name="KiwiAutoGal">
         <serverdata>
           <mappings>
-            <mapping deploy="\skorpius" local="$PROJECT_DIR$" web="kiwiautogal" />
+            <mapping deploy="/var/www/html/kiwiautogal/wp-content/themes/skorpius" local="$PROJECT_DIR$" web="kiwiautogal" />
           </mappings>
         </serverdata>
       </paths>
