@@ -170,4 +170,3 @@ if ( ! function_exists( 'skorpius' ) ) :
     add_filter('post_class','skorpius_sticky_posts');
 
 endif;
-
